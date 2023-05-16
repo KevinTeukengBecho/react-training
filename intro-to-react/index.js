@@ -1,9 +1,9 @@
-const incrementBtn = document.getElementById("increment-btn")
-const countDisplayText = document.getElementById("count-display")
+console.log(React)
+console.log(ReactDOM)
+console.log(Document)
 
-let currentCount = 0
+const reactContentRoot = document.getElementById("root")
 
-incrementBtn.addEventListener('click', () => {
-    currentCount ++
-    countDisplayText.innerHTML = currentCount
-})
+const myFirstElement = React.createElement('li', null, 'item1')
+
+ReactDOM.render(myFirstElement, reactContentRoot)
